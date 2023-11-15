@@ -1,0 +1,33 @@
+.welcome-box {
+    padding: 1px;
+    background-color: #F6EEDC;
+    font-size: 14px;
+    color: #5a5750;
+}
+
+.action-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+    position: relative;
+    backdrop-filter: blur(10px); /* Adjust the blur amount as needed */
+}
+
+.action-container p {
+    color: #FFC048;
+    font-size: 20px;
+}
+
+.action-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('./laptopback.jpeg');
+    background-size: 25% 100px;
+    filter: blur(1px); /* Adjust the blur amount to match the backdrop-filter */
+    z-index: -1;
+}

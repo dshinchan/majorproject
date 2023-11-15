@@ -1,0 +1,49 @@
+.main-container{
+    display: flex;
+    margin-right : 200px;
+    margin-left: 200px;
+    flex-direction: row ;
+    justify-content: center;
+}
+
+.filter-container{
+    width : 20%;
+    margin : auto ;
+    border-right: 0.4px solid hsl(0, 100%, 0%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.product-container{
+    width :80%;
+}
+.filter-box{
+    margin-bottom: 10px;
+}
+.refurb-container{
+    width : 60%;
+    margin : auto ; 
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-around;
+}
+.laptop-item{
+    width: 200px;
+}
+
+.filter-box form {
+    display: flex;
+    flex-direction: column;
+}
+
+.filter-box label {
+    display: flex;
+    align-items: center;
+    margin-left: 90px;
+    margin-bottom: 5px; /* Adjust margin as needed */
+  }
+
+  .laptopimages{
+    width: 100px;
+    height: 100px;
+  }
